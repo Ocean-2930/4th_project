@@ -5,48 +5,48 @@
 ---
 
 ## 👥 Team
-<table>
+<table width="100%" style="table-layout: fixed;">
   <tr>
-    <td align="center">
+    <td align="center" width="16.66%">
       <img src="https://github.com/SKN26-4th-1st/.github/blob/main/img/tiger.png?raw=true" width="110px;" /><br />
       <b>박기은</b><br />
     </td>
-    <td align="center">
+    <td align="center" width="16.66%">
       <img src="https://github.com/SKN26-4th-1st/.github/blob/main/img/bear.png?raw=true" width="110px;" /><br />
       <b>서민혁</b><br />
     </td>
-    <td align="center">
+    <td align="center" width="16.66%">
       <img src="https://github.com/SKN26-4th-1st/.github/blob/main/img/fox.png?raw=true" width="110px;" /><br />
       <b>유동현</b><br />
     </td>
-    <td align="center">
+    <td align="center" width="16.66%">
       <img src="https://github.com/SKN26-4th-1st/.github/blob/main/img/squirrel.png?raw=true" width="110px;" /><br />
       <b>윤정연</b><br />
     </td>
-    <td align="center">
+    <td align="center" width="16.66%">
       <img src="https://github.com/SKN26-4th-1st/.github/blob/main/img/dog.png?raw=true" width="110px;" /><br />
       <b>이레</b><br />
     </td>
-    <td align="center">
+    <td align="center" width="16.66%">
       <img src="https://github.com/SKN26-4th-1st/.github/blob/main/img/cat.png?raw=true" width="110px;" /><br />
       <b>정영일</b><br />
     </td>
   </tr>
   <tr>
-    <td align="center"><b>Role</b><br>Frontend</td>
-    <td align="center"><b>Role</b><br>Frontend</td>
-    <td align="center"><b>Role</b><br>Backend</td>
-    <td align="center"><b>Role</b><br>Modeling (RAG)</td>
-    <td align="center"><b>Role</b><br>Database</td>
-    <td align="center"><b>Role</b><br>Modeling (LangGraph)</td>
+    <td align="center" width="16.66%"><b>Role</b><br>Frontend</td>
+    <td align="center" width="16.66%"><b>Role</b><br>Frontend</td>
+    <td align="center" width="16.66%"><b>Role</b><br>Backend</td>
+    <td align="center" width="16.66%"><b>Role</b><br>Modeling</td>
+    <td align="center" width="16.66%"><b>Role</b><br>Database</td>
+    <td align="center" width="16.66%"><b>Role</b><br>Modeling</td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/gieun-Park"><img src="https://img.shields.io/badge/gieun-Park-34495e?style=flat&logo=github&logoColor=white"></a></td>
-    <td align="center"><a href="https://github.com/minhyeok328"><img src="https://img.shields.io/badge/minhyeok328-34495e?style=flat&logo=github&logoColor=white"></a></td>
-    <td align="center"><a href="https://github.com/Ocean-2930"><img src="https://img.shields.io/badge/Ocean-2930-34495e?style=flat&logo=github&logoColor=white"></a></td>
-    <td align="center"><a href="https://github.com/dimolto3"><img src="https://img.shields.io/badge/dimolto3-34495e?style=flat&logo=github&logoColor=white"></a></td>
-    <td align="center"><a href="https://github.com/leere2424"><img src="https://img.shields.io/badge/leere2424-34495e?style=flat&logo=github&logoColor=white"></a></td>
-    <td align="center"><a href="https://github.com/wjdduddlf112"><img src="https://img.shields.io/badge/wjdduddlf112-34495e?style=flat&logo=github&logoColor=white"></a></td>
+    <td align="center" width="16.66%"><a href="https://github.com/gieun-Park"><img src="https://img.shields.io/badge/gieun-Park-34495e?style=flat&logo=github&logoColor=white"></a></td>
+    <td align="center" width="16.66%"><a href="https://github.com/minhyeok328"><img src="https://img.shields.io/badge/minhyeok328-34495e?style=flat&logo=github&logoColor=white"></a></td>
+    <td align="center" width="16.66%"><a href="https://github.com/Ocean-2930"><img src="https://img.shields.io/badge/Ocean-2930-34495e?style=flat&logo=github&logoColor=white"></a></td>
+    <td align="center" width="16.66%"><a href="https://github.com/dimolto3"><img src="https://img.shields.io/badge/dimolto3-34495e?style=flat&logo=github&logoColor=white"></a></td>
+    <td align="center" width="16.66%"><a href="https://github.com/leere2424"><img src="https://img.shields.io/badge/leere2424-34495e?style=flat&logo=github&logoColor=white"></a></td>
+    <td align="center" width="16.66%"><a href="https://github.com/wjdduddlf112"><img src="https://img.shields.io/badge/wjdduddlf112-34495e?style=flat&logo=github&logoColor=white"></a></td>
   </tr>
 
 </table>
@@ -103,7 +103,7 @@
 |---|---|
 | **Language** | Python 3.12+ |
 | **Web Framework** | Django 6.0 |
-| **Frontend** | Django Templates (SSR), Tailwind CSS v4, django-tailwind, 바닐라 JS |
+| **Frontend** | Django Templates (SSR), Tailwind CSS v4, DaisyUI, django-tailwind, 바닐라 JS |
 | **LLM** | OpenAI `gpt-4o-mini` |
 | **Embedding** | OpenAI `text-embedding-3-small` |
 | **Orchestration** | LangGraph, LangChain Core |
@@ -134,7 +134,7 @@
 │   └── llm_frame.ipynb     # LLM 노드 평가·테스트
 ├── mainpage/               # 메인 페이지
 ├── templates/              # 페이지·components/ (검색·상세·채팅·계정·인증)
-├── static/                 # JS, CSS, 이미지, search_filter_options.json
+├── static/                 # JS·CSS·필터 JSON (요약은 아래 표)
 ├── theme/                  # Tailwind (django-tailwind)
 │   └── static_src/         # npm install · build · dev
 ├── media/                  # 업로드 프로필 이미지 (accounts)
@@ -147,6 +147,18 @@
 ```
 
 상세 트리·앱별 파일: [`docs/02-architecture/directory-structure.md`](docs/02-architecture/directory-structure.md)
+
+### static (요약)
+
+| 경로 | 용도 |
+|------|------|
+| `static/js/api-response.js` | 공통 `fetch` JSON·에러 메시지 |
+| `static/js/wishlist-toggle.js` | 찜 토글 (마이페이지 API) |
+| `static/js/chatpage.js` | 채팅 전송·마크다운 렌더 |
+| `static/js/searchpage.js`, `search/filter.js`, `search/pagination.js` | 검색·필터·페이지네이션 |
+| `static/js/productpage.js`, `loginpage.js` | 상세·로그인 패널 |
+| `static/data/search_filter_options.json` | 카테고리별 필터 옵션 |
+| `static/css/search_filter.css`, `mobile-viewport.css` | 검색 필터·모바일 뷰포트 |
 
 ---
 
@@ -208,8 +220,9 @@ flowchart LR
 | `fall_case_node` | 상담 범위 밖 질문 거절 |
 | `subsequence_router` | 후속 질문 여부 판별 |
 | `product_classification` | TV/에어컨/냉장고/청소기/세탁기 분류 |
-| `intent_router` | 자연어 → 검색 슬롯(structured output) |
+| `intent_router` | 자연어 → 검색 슬롯(structured output)·`vector_search` 쿼리 |
 | `db_search` | ORM 상품 검색 |
+| `reverse_condition` | 검색 0건 시 조건 완화·대안 안내 후 종료 |
 | `answer_with_result` | DB + 매뉴얼 RAG 기반 최종 답변 |
 | `answer_without_result` | 검색 실패 안내 |
 
@@ -228,6 +241,7 @@ flowchart LR
 | `ProductWash` | 세탁기 | `washing_cap`, `drying_cap`, `door_design`, … |
 | `ProductAC` | 에어컨 | `cool_cap`, `coverage`, `color`, … |
 | `ProductVAC` | 청소기 | `suction_power`, `battery_cnt`, … |
+| `ScreenResolution` | TV 해상도 마스터 | `resol_code`(PK), `name`, `width`, `height` — `ProductTV.resol_code` FK |
 
 ### 관계·계정 테이블
 
@@ -264,6 +278,7 @@ cd 4th_project
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
+# 데이터 노트북(loaddata, embedding/pdfdown 등)만 쓸 때는 requirements.txt 하단 Optional 패키지 포함
 
 cd theme\static_src
 npm install
@@ -276,6 +291,25 @@ python manage.py runserver
 ```
 
 > 스타일 개발 시 `theme/static_src`에서 `npm run dev`를 별도 터미널에서 실행합니다.
+
+### 7.2.1 Tailwind · `NPM_BIN_PATH` (django-tailwind)
+
+`django-tailwind`가 Tailwind 빌드를 실행할 때 `config/settings.py`의 **`NPM_BIN_PATH`** 에 지정한 실행 파일 경로를 사용합니다. OS·설치 방식마다 값이 다를 수 있으며, 경로가 맞지 않으면 `runserver` 또는 `tailwind` 관련 명령이 실패할 수 있습니다.
+
+| OS | `settings.py` 설정 (팀 검증값) |
+|----|-------------------------------|
+| **Windows** (기본값) | `NPM_BIN_PATH = r"C:\Program Files\nodejs\npm.cmd"` |
+| **Linux / macOS** | Windows 줄 주석 후 `NPM_BIN_PATH = "/usr/local/bin/node"` (Mac에서 Tailwind 빌드 동작 확인) |
+
+```python
+# config/settings.py (발췌)
+# for Windows
+NPM_BIN_PATH = r"C:\Program Files\nodejs\npm.cmd"
+# for Linux and Mac
+# NPM_BIN_PATH = "/usr/local/bin/node"
+```
+
+다른 PC에서는 `which node` 또는 `which npm` 결과로 위 값을 맞춥니다. DaisyUI·PostCSS 설정은 `theme/static_src/package.json` · `src/styles.css`를 참고합니다.
 
 ### 7.3 환경변수 설정
 
@@ -315,7 +349,9 @@ python manage.py runserver
 | `/products/<code>/` | 상품 상세 |
 | `/chats/` | LG봇 (로그인 필요) |
 | `/accounts/` | 로그인 |
-| `/accounts/mypage/` | 마이페이지·찜 |
+| `/accounts/register/` | 회원가입 |
+| `/accounts/logout/` | 로그아웃 |
+| `/accounts/mypage/` | 마이페이지·찜·프로필 |
 
 ### 8.2 API — 채팅 전송
 
@@ -334,11 +370,35 @@ Content-Type: application/json
 오류 응답:
 - `401` (비로그인), `400` (JSON/입력 오류), `405` (POST 외 메서드)
 
-### 8.3 Python — LangGraph 직접 호출
+상세: [`docs/06-api/rest-api.md`](docs/06-api/rest-api.md)
+
+### 8.3 API — 찜 (Favorite)
+
+UI는 주로 **마이페이지** JSON POST를 사용합니다 (`wishlist-toggle.js` → `accounts/views.py`).
+
+```http
+POST /accounts/mypage/
+Content-Type: application/x-www-form-urlencoded
+
+action=toggle_favorite&product_code=TVT12345
+```
+
+성공 응답: `{ "ok": true, "favorited": true|false }` (로그인 필요)
+
+REST 대안 (`api/views.py`):
+
+| 메서드·경로 | 설명 | 응답 키 |
+|-------------|------|---------|
+| `POST /api/favorite/<product_code>/` | 찜 on/off 토글 | `is_favorite` |
+| `POST /api/check_favorite/<product_code>/` | 찜 가능 여부만 조회 (토글 없음) | `is_favorite` |
+
+비로그인 시 두 REST API 모두 `{ "is_favorite": false }`.
+
+### 8.4 Python — LangGraph 직접 호출
 
 채팅방·DB 컨텍스트 없이 그래프만 검증할 때는 `common/llm.py`의 `graph_instance` 또는 `debug.py`를 참고합니다.
 
-### 8.4 RAG · 벡터DB 연동
+### 8.5 RAG · 벡터DB 연동
 
 - **임베딩**: `text-embedding-3-small`
 - **검색**: `common/vector_search.py` → Pinecone `user_manual` namespace, `product_code_header` 필터

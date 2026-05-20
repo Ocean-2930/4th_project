@@ -16,6 +16,8 @@
 | `products/data/embedding/embedding.ipynb` | 청킹·임베딩 |
 | `products/data/embedding/pinecone_uploader.ipynb` | Pinecone `user_manual` 업로드 |
 
+노트북 실행 시 `pandas`, `numpy`, `requests`, `pymupdf` 등 — [requirements.txt](../../requirements.txt) Optional 섹션 · [데이터 파이프라인 — Python 의존성](../02-architecture/data-pipeline.md#python-의존성-노트북).
+
 → [데이터 파이프라인 §4](../02-architecture/data-pipeline.md#4-매뉴얼-rag-pinecone)
 
 ## 설정

@@ -51,7 +51,7 @@ flowchart TB
 
 | 레이어 | 기술 |
 |--------|------|
-| Web | Django 6.0, Templates SSR, Tailwind v4 |
+| Web | Django 6.0, Templates SSR, Tailwind v4, DaisyUI, django-tailwind |
 | DB | SQLite, Django ORM |
 | LLM | OpenAI `gpt-4o-mini`, LangGraph |
 | Vector | Pinecone (`user_manual`), `text-embedding-3-small` |
