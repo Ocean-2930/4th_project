@@ -6,7 +6,7 @@
 
 - **SSR 우선**: Django 템플릿으로 HTML 전달, 상호작용만 JS
 - **컴포넌트 분리**: `templates/components/` 하위 도메인별 partial
-- **스타일**: Tailwind v4 (`theme/static_src`), LG 톤 — 레드 포인트·라운드 카드
+- **스타일**: Tailwind v4 + DaisyUI (`theme/static_src`), LG 톤 — 레드 포인트·라운드 카드
 
 ## 페이지 체크리스트
 

@@ -28,9 +28,11 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-주요 패키지: `Django`, `django-tailwind`, `langgraph`, `langchain-openai`, `pinecone`, `python-dotenv` — 전체 목록은 [requirements.txt](../../requirements.txt).
+주요 패키지: `Django`, `django-tailwind`, `langgraph`, `langchain-openai`, `pinecone`, `python-dotenv` — 전체 목록은 [requirements.txt](../../requirements.txt). 데이터 노트북용 `pandas`, `numpy`, `requests`, `pymupdf`는 동일 파일 하단 Optional 섹션에 포함됩니다.
 
 ## Tailwind (theme)
+
+스택: **Tailwind CSS v4**, **DaisyUI** (`theme/static_src/package.json`), **django-tailwind**.
 
 ```powershell
 cd theme\static_src
@@ -45,6 +47,25 @@ cd ..\..
 cd theme\static_src
 npm run dev
 ```
+
+### `NPM_BIN_PATH` (django-tailwind)
+
+`django-tailwind`가 Tailwind 빌드 시 `config/settings.py`의 **`NPM_BIN_PATH`** 를 사용합니다. 경로가 맞지 않으면 빌드·`runserver` 연동이 실패할 수 있습니다.
+
+| OS | 설정 (팀 검증값) |
+|----|------------------|
+| **Windows** (기본) | `NPM_BIN_PATH = r"C:\Program Files\nodejs\npm.cmd"` |
+| **Linux / macOS** | Windows 줄 주석 후 `NPM_BIN_PATH = "/usr/local/bin/node"` (Mac에서 동작 확인) |
+
+```python
+# config/settings.py (발췌)
+NPM_BIN_PATH = r"C:\Program Files\nodejs\npm.cmd"
+# NPM_BIN_PATH = "/usr/local/bin/node"   # Linux/Mac
+```
+
+다른 환경에서는 `which node` / `which npm`으로 로컬 경로에 맞게 조정합니다.
+
+루트 [README §7.2.1](../../README.md#721-tailwind--npm_bin_path-django-tailwind)과 동일합니다.
 
 ## 환경 변수 (`.env`)
 
@@ -79,6 +100,7 @@ python manage.py migrate
 | Django 설정 모듈 | `config.settings` (`manage.py` 기본) |
 | LangGraph 단독 테스트 | `debug.py`, `common/llm.py`의 `graph_instance` |
 | 정적 파일 | `static/`, Tailwind 빌드 결과는 `theme/static/` |
+| Tailwind npm 경로 | `config/settings.py` → `NPM_BIN_PATH` (위 절 참고) |
 
 ## 다음 단계
 

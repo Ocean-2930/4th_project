@@ -21,6 +21,7 @@ python manage.py runserver
 | `/chats/` | LG봇 | **필요** |
 | `/accounts/` | 로그인 | — |
 | `/accounts/register/` | 회원가입 | — |
+| `/accounts/logout/` | 로그아웃 | — |
 | `/accounts/mypage/` | 마이페이지 | **필요** |
 
 상세 라우팅: [페이지·URL 매핑](../03-frontend/pages-and-routes.md)

@@ -35,7 +35,7 @@
 
 | 경로 | 설명 |
 |------|------|
-| `config/settings.py` | 앱 등록, DB, Tailwind, `.env` |
+| `config/settings.py` | 앱 등록, DB, Tailwind, `NPM_BIN_PATH`, `.env` |
 | `config/urls.py` | 루트 URL include |
 | `products/models.py` | 카테고리별 Product*, `search_model()` |
 | `products/views.py` | `searchpage`, `productpage` |

@@ -8,6 +8,11 @@
 
 `AUTH_USER_MODEL = "accounts.Account"`
 
+| 설정 | 설명 |
+|------|------|
+| `NPM_BIN_PATH` | django-tailwind용 npm 실행 경로 (OS별 — [개발 환경 § NPM_BIN_PATH](../01-getting-started/development-environment.md#npm_bin_path-django-tailwind)) |
+| `TAILWIND_APP_NAME` | `'theme'` |
+
 ## mainpage
 
 | 항목 | 내용 |
