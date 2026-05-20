@@ -19,3 +19,11 @@ selenium==4.44.0
 webdriver-manager==4.0.2
 beautifulsoup4==4.14.3
 tqdm==4.67.3
+
+# Optional — data pipeline notebooks (loaddata.ipynb, preprocessing/, embedding/)
+# Install when running CSV load, PDF parse, or Pinecone upload notebooks:
+#   pip install pandas numpy requests pymupdf
+pandas==2.2.3
+numpy==2.2.4
+requests==2.32.3
+pymupdf==1.25.5
