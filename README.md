@@ -5,48 +5,48 @@
 ---
 
 ## 👥 Team
-<table>
+<table width="100%" style="table-layout: fixed;">
   <tr>
-    <td align="center">
+    <td align="center" width="16.66%">
       <img src="https://github.com/SKN26-4th-1st/.github/blob/main/img/tiger.png?raw=true" width="110px;" /><br />
       <b>박기은</b><br />
     </td>
-    <td align="center">
+    <td align="center" width="16.66%">
       <img src="https://github.com/SKN26-4th-1st/.github/blob/main/img/bear.png?raw=true" width="110px;" /><br />
       <b>서민혁</b><br />
     </td>
-    <td align="center">
+    <td align="center" width="16.66%">
       <img src="https://github.com/SKN26-4th-1st/.github/blob/main/img/fox.png?raw=true" width="110px;" /><br />
       <b>유동현</b><br />
     </td>
-    <td align="center">
+    <td align="center" width="16.66%">
       <img src="https://github.com/SKN26-4th-1st/.github/blob/main/img/squirrel.png?raw=true" width="110px;" /><br />
       <b>윤정연</b><br />
     </td>
-    <td align="center">
+    <td align="center" width="16.66%">
       <img src="https://github.com/SKN26-4th-1st/.github/blob/main/img/dog.png?raw=true" width="110px;" /><br />
       <b>이레</b><br />
     </td>
-    <td align="center">
+    <td align="center" width="16.66%">
       <img src="https://github.com/SKN26-4th-1st/.github/blob/main/img/cat.png?raw=true" width="110px;" /><br />
       <b>정영일</b><br />
     </td>
   </tr>
   <tr>
-    <td align="center"><b>Role</b><br>Frontend</td>
-    <td align="center"><b>Role</b><br>Frontend</td>
-    <td align="center"><b>Role</b><br>Backend</td>
-    <td align="center"><b>Role</b><br>Modeling (RAG)</td>
-    <td align="center"><b>Role</b><br>Database</td>
-    <td align="center"><b>Role</b><br>Modeling (LangGraph)</td>
+    <td align="center" width="16.66%"><b>Role</b><br>Frontend</td>
+    <td align="center" width="16.66%"><b>Role</b><br>Frontend</td>
+    <td align="center" width="16.66%"><b>Role</b><br>Backend</td>
+    <td align="center" width="16.66%"><b>Role</b><br>Modeling</td>
+    <td align="center" width="16.66%"><b>Role</b><br>Database</td>
+    <td align="center" width="16.66%"><b>Role</b><br>Modeling</td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/gieun-Park"><img src="https://img.shields.io/badge/gieun-Park-34495e?style=flat&logo=github&logoColor=white"></a></td>
-    <td align="center"><a href="https://github.com/minhyeok328"><img src="https://img.shields.io/badge/minhyeok328-34495e?style=flat&logo=github&logoColor=white"></a></td>
-    <td align="center"><a href="https://github.com/Ocean-2930"><img src="https://img.shields.io/badge/Ocean-2930-34495e?style=flat&logo=github&logoColor=white"></a></td>
-    <td align="center"><a href="https://github.com/dimolto3"><img src="https://img.shields.io/badge/dimolto3-34495e?style=flat&logo=github&logoColor=white"></a></td>
-    <td align="center"><a href="https://github.com/leere2424"><img src="https://img.shields.io/badge/leere2424-34495e?style=flat&logo=github&logoColor=white"></a></td>
-    <td align="center"><a href="https://github.com/wjdduddlf112"><img src="https://img.shields.io/badge/wjdduddlf112-34495e?style=flat&logo=github&logoColor=white"></a></td>
+    <td align="center" width="16.66%"><a href="https://github.com/gieun-Park"><img src="https://img.shields.io/badge/gieun-Park-34495e?style=flat&logo=github&logoColor=white"></a></td>
+    <td align="center" width="16.66%"><a href="https://github.com/minhyeok328"><img src="https://img.shields.io/badge/minhyeok328-34495e?style=flat&logo=github&logoColor=white"></a></td>
+    <td align="center" width="16.66%"><a href="https://github.com/Ocean-2930"><img src="https://img.shields.io/badge/Ocean-2930-34495e?style=flat&logo=github&logoColor=white"></a></td>
+    <td align="center" width="16.66%"><a href="https://github.com/dimolto3"><img src="https://img.shields.io/badge/dimolto3-34495e?style=flat&logo=github&logoColor=white"></a></td>
+    <td align="center" width="16.66%"><a href="https://github.com/leere2424"><img src="https://img.shields.io/badge/leere2424-34495e?style=flat&logo=github&logoColor=white"></a></td>
+    <td align="center" width="16.66%"><a href="https://github.com/wjdduddlf112"><img src="https://img.shields.io/badge/wjdduddlf112-34495e?style=flat&logo=github&logoColor=white"></a></td>
   </tr>
 
 </table>
