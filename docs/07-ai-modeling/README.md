@@ -21,7 +21,7 @@
 | `common/vector_search.py` | `search_manual`, `get_page` |
 | `common/llm_frame.ipynb` | 노드별 평가·혼동행렬 테스트 |
 | `debug.py` | 그래프 단독 실행 (루트) |
-| `products/data/embedding/` | PDF·임베딩·Pinecone 오프라인 적재 |
+| `products/data/embedding/` | PDF·임베딩·Pinecone 오프라인 적재 (`pandas`, `pymupdf` 등 — [requirements.txt](../../requirements.txt) Optional) |
 
 ## 모델·외부 서비스
 

@@ -35,7 +35,7 @@
 ## 빠른 링크
 
 ### 개발·운영
-- [개발 환경 설정](01-getting-started/development-environment.md)
+- [개발 환경 설정](01-getting-started/development-environment.md) — Python·Tailwind·`NPM_BIN_PATH`·`.env`
 - [실행 및 일상 운영](01-getting-started/run-and-operations.md)
 
 ### 구조·데이터

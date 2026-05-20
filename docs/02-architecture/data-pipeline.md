@@ -22,6 +22,18 @@ flowchart LR
 | 도구 | Selenium, BeautifulSoup (`selenium_auto_module.py`) |
 | 산출물 | `*_all_products.csv`, `*_product_links.txt`, HTML 스냅샷 |
 
+## Python 의존성 (노트북)
+
+웹 앱만 실행할 때는 `pip install -r requirements.txt`로 충분합니다. 크롤링·`loaddata.ipynb`·`embedding/` 노트북까지 돌릴 때는 동일 파일 **Optional** 섹션(`pandas`, `numpy`, `requests`, `pymupdf`)이 포함됩니다.
+
+| 패키지 | 주 용도 |
+|--------|---------|
+| `pandas` / `numpy` | CSV 전처리·`loaddata.ipynb` |
+| `requests` | `pdfdown.ipynb` 매뉴얼 다운로드 |
+| `pymupdf` (`fitz`) | PDF 텍스트 추출 |
+
+→ [개발 환경 — Python](../01-getting-started/development-environment.md#python-가상환경)
+
 ## 2. 전처리·적재 (ETL)
 
 | 단계 | 위치 | 산출물 |

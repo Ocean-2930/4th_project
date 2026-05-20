@@ -3,7 +3,7 @@
 [← Docs 홈](../README.md)
 
 **담당**: 박기은, 서민혁  
-**스택**: Django Templates (SSR), Tailwind CSS v4, django-tailwind, 바닐라 JS
+**스택**: Django Templates (SSR), Tailwind CSS v4, DaisyUI, django-tailwind, 바닐라 JS
 
 ## 문서 흐름 (평가 → 개선 → QA)
 
@@ -41,5 +41,5 @@
 | `static/js/` | 페이지별·공통 클라이언트 로직 (`api-response.js`, `wishlist-toggle.js`, `search/filter.js` 등) |
 | `static/css/` | 보조 CSS (`search_filter.css`, `mobile-viewport.css`) |
 | `static/data/` | 필터 옵션 JSON |
-| `theme/static_src/` | Tailwind npm (`install` · `build` · `dev`) |
+| `theme/static_src/` | Tailwind v4 · DaisyUI npm (`install` · `build` · `dev`); `NPM_BIN_PATH` → [개발 환경](../01-getting-started/development-environment.md#npm_bin_path-django-tailwind) |
 | `media/` | 프로필 업로드 (accounts) |
